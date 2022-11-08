@@ -11,20 +11,20 @@
   <label for="lname">Last Name:</label><br>
   <input type="text" id="lname" name="lname"><br>
   
-  <label for="fname">Middle Name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <label for="mname">Middle Name:</label><br>
+  <input type="text" id="mname" name="mname"><br>
   
-  <label for="fname">Birthdate:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <label for="birthdate">Birthdate:</label><br>
+  <input type="text" id="birthdate" name="birthdate"><br>
   
-  <label for="fname">ID number:</label><br>
-  <input maxlength="11" type="text" id="fname" name="fname"><br>
+  <label for="id">ID number:</label><br>
+  <input maxlength="11" type="text" id="id" name="id"><br>
   
-  <label for="fname">Parent/Guardian Fullname:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <label for="pgname">Parent/Guardian Fullname:</label><br>
+  <input type="text" id="pgname" name="pgname"><br>
   
-  <label for="fname">Contact Number:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <label for="contact">Contact Number:</label><br>
+  <input type="text" id="contact" name="contact"><br>
   
   <input type="submit" value="Submit">
 </form><br>
