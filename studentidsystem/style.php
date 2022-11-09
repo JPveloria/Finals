@@ -6,7 +6,7 @@
   	-moz-osx-font-smoothing: grayscale;
 }
 body {
-  	background-color: #FFFFFF;
+  	background-color: yellowgreen;
   	margin: 0;
 }
 .navtop {
