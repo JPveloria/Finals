@@ -13,7 +13,7 @@ if (isset($_GET['id'])) {
         $contact = isset($_POST['contact']) ? $_POST['contact'] : '';
         $created = isset($_POST['created']) ? $_POST['created'] : date('Y-m-d H:i:s');
         $stmt = $pdo->prepare('UPDATE studentid SET id = ?, fname = ?, lname = ?, mname = ?, birthdate = ?, pgname = ?, contact = ?, created = ? WHERE id = ?');
-        $stmt->execute([$id, $name, $email, $phone, $title, $created, $_GET['id']]);
+        $stmt->execute([$id, $fname, $lname, $mname, $birthdate, $pgname, $contact, $created, $_GET['id']]);
         $msg = 'Updated Successfully!';
     }
     $stmt = $pdo->prepare('SELECT * FROM studentid WHERE id = ?');
