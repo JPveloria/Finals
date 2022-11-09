@@ -12,7 +12,7 @@ if (!empty($_POST)) {
     $contact = isset($_POST['contact']) ? $_POST['contact'] : '';
     $created = isset($_POST['created']) ? $_POST['created'] : date('Y-m-d H:i:s');
 
-    $stmt = $pdo->prepare('INSERT INTO students VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+    $stmt = $pdo->prepare('INSERT INTO studentid VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
     
     $stmt->execute([$id, $fname, $lname, $mname, $birthdate, $pgname, $contact, $created]);
 

@@ -5,8 +5,8 @@ $msg = '';
 if (isset($_GET['id'])) {
     $stmt = $pdo->prepare('SELECT * FROM studentid WHERE id = ?');
     $stmt->execute([$_GET['id']]);
-    $contact = $stmt->fetch(PDO::FETCH_ASSOC);
-    if (!$contact) {
+    $student = $stmt->fetch(PDO::FETCH_ASSOC);
+    if (!$student) {
         exit('student doesn\'t exist with that ID!');
     }
     if (isset($_GET['confirm'])) {
