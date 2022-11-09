@@ -4,7 +4,7 @@ function pdo_connect_mysql()
     $DATABASE_HOST = 'localhost';
     $DATABASE_USER = 'root';
     $DATABASE_PASS = '';
-    $DATABASE_NAME = 'phpcrud';
+    $DATABASE_NAME = 'studentcrud';
     try 
     {
     	return new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS);
@@ -29,7 +29,7 @@ echo <<<EOT
     	<div>
     		<h1>Website Title</h1>
             <a href="index.php"><i class="fas fa-home"></i>Home</a>
-    		<a href="read.php"><i class="fas fa-address-book"></i>Contacts</a>
+    		<a href="read.php"><i class="fas fa-address-book"></i>studentid</a>
     	</div>
     </nav>
 EOT;
