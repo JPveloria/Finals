@@ -36,7 +36,7 @@ if (isset($_GET['id'])) {
         <label for="fname">FirstName</label>
         
         <input type="text" name="id" placeholder="" value="<?=$student['id']?>" id="id">
-        <input type="text" name="name" placeholder="" value="<?=$student['fname']?>" id="fname">
+        <input type="text" name="fname" placeholder="" value="<?=$student['fname']?>" id="fname">
 
         <label for="lname">LastName</label>
         <input type="text" name="lname" placeholder="" value="<?=$student['lname']?>" id="lname">
